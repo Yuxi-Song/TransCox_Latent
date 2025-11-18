@@ -1,11 +1,14 @@
 Package: MultiTransCox
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Transfer Learning Cox Proportional Hazards Model with Multiple Sources
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Yuxi Song <lucillesong@ucla.edu>
+Maintainer: Yuxi Song <lucillesong@ucla.edu>
+Description: This package improves the Trans-Cox method, which adaptively borrows information from multiple external datasets to enhance survival analysis of a target dataset.
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 4.0), reticulate, survival, TransCox, data.table, survcomp
+Suggests: knitr, rmarkdown, stats, testthat
+VignetteBuilder: knitr
+RoxygenNote: 7.3.2
